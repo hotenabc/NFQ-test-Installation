@@ -47,9 +47,7 @@ The project uses composer to install:
     - `Product.php` - this class needs to be refactored, and the new feature added
 - `tests` - contains the tests
     - `ProductTest.php` - starter test.
-        - Tip: ApprovalTests has been included as a dev dependency, see the PHP version of
-          the [Theatrical Players Refactoring Test](https://github.com/hotenabc/Theatrical-Players-Refactoring-Kata/)
-          for an example
+        - Tip: ApprovalTests has been included as a dev dependency
 - `Fixture`
     - `texttest_fixture.php` this could be used by an ApprovalTests, or run from the command line
 
