@@ -1,5 +1,3 @@
-# Product - PHP Version
-
 ## Installation
 
 The NFQ-test uses:
