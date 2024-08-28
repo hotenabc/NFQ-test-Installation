@@ -1,11 +1,8 @@
-# GildedRose Kata - PHP Version
-
-See the [top level readme](../README.md) for general information about this exercise. This is the PHP version of the
-GildedRose Kata.
+# Product - PHP Version
 
 ## Installation
 
-The kata uses:
+The NFQ-test uses:
 
 - [8.0+](https://www.php.net/downloads.php)
 - [Composer](https://getcomposer.org)
@@ -30,7 +27,7 @@ git clone https://github.com/emilybache/GildedRose-Refactoring-Kata.git
 Install all the dependencies using composer
 
 ```shell script
-cd ./GildedRose-Refactoring-Kata/php
+cd ./NFQ-test-solution
 composer install
 ```
 
@@ -47,11 +44,11 @@ The project uses composer to install:
 
 - `src` - contains the two classes:
     - `Item.php` - this class should not be changed
-    - `GildedRose.php` - this class needs to be refactored, and the new feature added
+    - `Product.php` - this class needs to be refactored, and the new feature added
 - `tests` - contains the tests
-    - `GildedRoseTest.php` - starter test.
+    - `ProductTest.php` - starter test.
         - Tip: ApprovalTests has been included as a dev dependency, see the PHP version of
-          the [Theatrical Players Refactoring Kata](https://github.com/emilybache/Theatrical-Players-Refactoring-Kata/)
+          the [Theatrical Players Refactoring Test](https://github.com/hotenabc/Theatrical-Players-Refactoring-Kata/)
           for an example
 - `Fixture`
     - `texttest_fixture.php` this could be used by an ApprovalTests, or run from the command line
